@@ -1,0 +1,27 @@
+1.first initialized git repo -> git init ->hit enter
+
+2.when it is done check git status -> git status ->hit enter
+
+3.it will show "No commits yet Untracked files...etc" in red color.
+
+4.Then add our file to staging area -> git add "filename with extension". ->hit enter
+
+5.one more time to check git status. -> git status ->hit enter
+
+6.Now it will show "On branch master but No commits yet" in green color.
+
+7.Then commit our master -> git commit -m "type your msg" ->hit enter
+
+8.Now Check our local master logs -> git log ->hit enter
+
+9.All files add in folder -> git add . ->hit enter
+
+10.To check difference between local file vs. master ->git diff "filename with extension" ->hit enter
+
+11.To restore prev. versions -> git checkout "filename with extension" ->hit enter
+
+12.Before we remote our master always check git logs.
+
+13.To add remote upload our master file ->git remote add origin "https://github.com/username/repo_name.git" ->hit enter
+
+14.Now we are ready to push our repository to github -> git push -u origin master ->hit enter
